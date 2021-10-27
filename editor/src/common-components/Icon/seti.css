@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "seti";
+  src: url("./seti.woff") format("woff");
+}
+[class*="seti-"] {
+  font: normal normal normal 150% seti;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  text-transform: none;
+}
+.seti-babel:before {
+  content: "\E006";
+  color: #b7b73b;
+}
+.seti-config:before {
+  content: "\E019";
+  color: #627379;
+}
+.seti-css:before {
+  content: "\E01D";
+  color: #498ba7;
+}
+.seti-default:before {
+  content: "\E023";
+  color: #bfc2c1;
+}
+.seti-eslint:before {
+  content: "\E02C";
+  color: #9068b0;
+}
+.seti-favicon:before {
+  content: "\E02F";
+  color: #b7b73b;
+}
+.seti-git:before {
+  content: "\E034";
+  color: #3b4b52;
+}
+.seti-html:before {
+  content: "\E04A";
+  color: #cc6d2e;
+}
+.seti-image:before {
+  content: "\E04C";
+  color: #9068b0;
+}
+.seti-js:before {
+  content: "\E051";
+  color: #b7b73b;
+}
+.seti-json:before {
+  content: "\E055";
+  color: #b7b73b;
+}
+.seti-less:before {
+  content: "\E059";
+  color: #498ba7;
+}
+.seti-react:before {
+  content: "\E07D";
+  color: #498ba7;
+}
+.seti-sass:before {
+  content: "\E084";
+  color: #dd4b78;
+}
+.seti-stylelint:before {
+  content: "\E08D";
+  color: #bfc2c1;
+}
+.seti-tsconfig:before {
+  content: "\E097";
+  color: #498ba7;
+}
+.seti-ts:before {
+  content: "\E099";
+  color: #498ba7;
+}
+.seti-vue:before {
+  content: "\E09C";
+  color: #7fae42;
+}
+.seti-webpack:before {
+  content: "\E09F";
+  color: #498ba7;
+}
